@@ -74,3 +74,5 @@ do not add the TCP port number (e.g. `:19812`) to the server address
 
 > [!WARNING]
  ODBC connection between 4D applications is not supported and may result in problems 
+
+To Be Continued.
