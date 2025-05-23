@@ -37,7 +37,34 @@ SQLLevel = 3
 
 this file is used by ODBC administration software to discover ODBC drivers installed on the system.
 
-* Download [ODBC Manager](https://odbcmanager.net/index.php) by [Actual Technologies](http://www.actualtech.com/)
+* Download and install [ODBC Manager](https://odbcmanager.net/index.php) by [Actual Technologies](http://www.actualtech.com/)
 
 > [!WARNING]
-4D ODBC Driver 64-bit is not compatible with [iODBC](https://www.iodbc.org/dataspace/doc/iodbc/wiki/iodbcWiki/WelcomeVisitors) by OpenLink Software
+[iODBC](https://www.iodbc.org/dataspace/doc/iodbc/wiki/iodbcWiki/WelcomeVisitors) by OpenLink Software can't be used to add or remove 4D ODBC Driver
+> 
+> <img src="https://github.com/user-attachments/assets/50b16e34-0215-4e6c-be27-ab881221bcd7" width=400 height=auto />
+>    
+> <img src="https://github.com/user-attachments/assets/5a811159-8695-42aa-a3ac-285c67207790" width=300 height=auto />
+
+* launch ODBC Manager (installed in /Application/Utilities/)
+
+* add 4D ODBC Driver 64-bit
+
+<img src="https://github.com/user-attachments/assets/14d21ac7-4416-4042-8a1c-b164f9e61fe3" width=400 height=auto />
+
+* double-click on the entry and add the following key-value pairs:
+
+```
+Server: the server address
+UID: user name
+PWD: password
+Driver: /Library/ODBC/4D ODBC x64.bundle/Contents/MacOS/4D ODBC x64
+```
+
+> [!NOTE]
+ this edits the file `obbc.ini`
+
+<img src="https://github.com/user-attachments/assets/f26bd293-905f-4bde-a69c-ab95c3341dc2" width=400 height=auto />
+
+
+ 
