@@ -54,17 +54,20 @@ this file is used by ODBC administration software to discover ODBC drivers insta
 
 * double-click on the entry and add the following key-value pairs:
 
+> [!NOTE]
+the information is stored in a file named `obbc.ini`
+ 
 ```
+Driver: /Library/ODBC/4D ODBC x64.bundle/Contents/MacOS/4D ODBC x64
 Server: the server address
 UID: user name
 PWD: password
-Driver: /Library/ODBC/4D ODBC x64.bundle/Contents/MacOS/4D ODBC x64
 ```
 
-> [!NOTE]
- this edits the file `obbc.ini`
+do not add the TCP port number (e.g. `:19812`) to the server address
 
 <img src="https://github.com/user-attachments/assets/f26bd293-905f-4bde-a69c-ab95c3341dc2" width=400 height=auto />
 
-
+* launch 4D Developer or 4D Server and start the SQL server.
  
+* launch a client application 
