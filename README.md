@@ -60,7 +60,7 @@ the information is stored in a file named `obbc.ini`
 ```
 Driver: /Library/ODBC/4D ODBC x64.bundle/Contents/MacOS/4D ODBC x64
 Server: the server address
-UID: user name
+UID: username
 PWD: password
 ```
 
