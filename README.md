@@ -35,6 +35,9 @@ FileUsage = 0
 SQLLevel = 3
 ```
 
-this file is used by ODBC managers to discover ODBC drivers installed on the system.
+this file is used by ODBC administration software to discover ODBC drivers installed on the system.
 
 * Download [ODBC Manager](https://odbcmanager.net/index.php) by [Actual Technologies](http://www.actualtech.com/)
+
+> [!WARNING]
+4D ODBC Driver 64-bit is not compatible with [iODBC](https://www.iodbc.org/dataspace/doc/iodbc/wiki/iodbcWiki/WelcomeVisitors) by OpenLink Software
