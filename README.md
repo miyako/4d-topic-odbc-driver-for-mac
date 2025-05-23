@@ -64,7 +64,8 @@ UID: username
 PWD: password
 ```
 
-do not add the TCP port number (e.g. `:19812`) to the server address
+> [!NOTE]
+you do not need to add the TCP port number (e.g. `:19812`) to the server address
 
 <img src="https://github.com/user-attachments/assets/f26bd293-905f-4bde-a69c-ab95c3341dc2" width=400 height=auto />
 
