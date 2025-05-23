@@ -70,7 +70,7 @@ do not add the TCP port number (e.g. `:19812`) to the server address
 
 * launch 4D Developer or 4D Server and start the SQL server.
  
-* launch a client application other than 4D
+* launch a Intel/Rosetta client application other than 4D
 
 > [!WARNING]
  ODBC connection between 4D applications is not supported and may result in problems 
